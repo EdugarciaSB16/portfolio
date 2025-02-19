@@ -52,7 +52,7 @@ const Header = ({ social }: HeaderProps) => {
                 initial={false}
                 animate={isActive ? 'open' : 'closed'}
                 variants={variants}
-                className="absolute top-0 right-0 md:-top-6 md:-right-6 w-dvw md:w-[480px] h-dvh md:h-[calc(100dvh_-_2.5rem)] bg-primary"
+                className="absolute top-0 right-0 md:-top-6 md:-right-6 w-dvw md:w-[480px] h-dvh md:h-[calc(100dvh_-_2.5rem)] bg-orange"
             >
                 {isActive && (
                     <nav className="flex justify-between flex-col w-full h-full px-10 pt-[100px] pb-[50px]">
@@ -155,7 +155,7 @@ function Button({
                 }}
             >
                 <motion.div
-                    className="bg-primary h-full w-full grid place-items-center text-black"
+                    className="bg-orange h-full w-full grid place-items-center text-black"
                     onClick={() => {
                         toggleMenu();
                     }}

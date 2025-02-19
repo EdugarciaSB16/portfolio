@@ -20,6 +20,10 @@ const config: Config = {
                     DEFAULT: 'hsl(var(--secondary))',
                     foreground: 'hsl(var(--secondary-foreground))',
                 },
+                orange: {
+                    DEFAULT: 'hsl(var(--orange))',
+                    foreground: 'hsl(var(--orange-foreground))',
+                },
                 border: 'hsla(var(--border))',
             },
             animation: {

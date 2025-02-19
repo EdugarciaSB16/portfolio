@@ -21,6 +21,9 @@
         --ring: 240 5.9% 10%;
         --radius: 0.5rem;
         --redis-gray: 183, 171, 152;
+
+        --orange: 30, 100%, 50%;
+        --orange-foreground: 33 100% 90%;
     }
 
     .dark {
