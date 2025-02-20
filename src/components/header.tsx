@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { SocialHandle } from '@/utils/interface';
 import { motion } from 'motion/react';
-import { Transition } from './ui/Transition';
+import { Transition } from './ui/Transitions';
 import Link from 'next/link';
 import { TextReveal } from './ui/Typography';
 import { useMediaQuery } from '@/utils/useMediaQuery';
@@ -44,7 +44,7 @@ const Header = ({ social }: HeaderProps) => {
             <Transition className="fixed md:top-8 top-6 md:left-8 left-6 z-30 ">
                 <Link href={'/'}>
                     <TextReveal className="font-semibold ">
-                        ThePortfolio
+                        Eduardo | JS Developer
                     </TextReveal>
                 </Link>
             </Transition>
