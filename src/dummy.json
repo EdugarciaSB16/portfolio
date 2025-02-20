@@ -307,7 +307,7 @@
                 "url": "/projects/brainwave.png"
             },
             "short_description": "Developed with React, GSAP, and Tailwind.",
-            "description": "TBrainwave - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.",
+            "description": "Brainwave - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.",
             "techStack": ["Reactjs ", " GSAP ", " Tailwind "],
             "_id": "32rr23rf23r23rfd23rf23455",
             "enabled": true
@@ -320,7 +320,7 @@
                 "url": "/projects/zentry.png"
             },
             "short_description": "Developed with React, GSAP, and Tailwind.",
-            "description": "Build a visually captivating website inspired by Zentry, featuring scroll-triggered animations, geometric transitions, and engaging video storytelling. Learn how to deliver a luxurious, modern feel, focusing on engaging UI/UX and smooth responsiveness.",
+            "description": "Build a visually captivating website inspired by Zentry, featuring scroll-triggered animations, geometric transitions, and engaging video storytelling. Learn how to deliver a luxurious, modern feel, focusing on engaging UI/UX and smooth responsivenes.",
             "techStack": ["Reactjs ", " GSAP ", " Tailwind "],
             "_id": "2332452q5534fgre32442ewa",
             "enabled": true
