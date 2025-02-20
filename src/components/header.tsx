@@ -52,7 +52,7 @@ const Header = ({ social }: HeaderProps) => {
                 initial={false}
                 animate={isActive ? 'open' : 'closed'}
                 variants={variants}
-                className="absolute top-0 right-0 md:-top-6 md:-right-6 w-dvw md:w-[480px] h-dvh md:h-[calc(100dvh_-_2.5rem)] bg-orange"
+                className="absolute top-0 right-0 md:-top-6 md:-right-6 w-dvw md:w-[480px] h-dvh md:h-[calc(100dvh_-_2.5rem)] bg-primary"
             >
                 {isActive && (
                     <nav className="flex justify-between flex-col w-full h-full px-10 pt-[100px] pb-[50px]">
@@ -108,7 +108,7 @@ const Header = ({ social }: HeaderProps) => {
                                     <MotionLink
                                         href={url}
                                         target="_blank"
-                                        className=" w-1/2 mt-1 text-background"
+                                        className="w-1/2 text-2xl mt-1 text-background"
                                         variants={slideIn}
                                         custom={i}
                                         initial="initial"
@@ -155,7 +155,7 @@ function Button({
                 }}
             >
                 <motion.div
-                    className="bg-orange h-full w-full grid place-items-center text-black"
+                    className="bg-primary h-full w-full grid place-items-center text-black"
                     onClick={() => {
                         toggleMenu();
                     }}
