@@ -1,30 +1,15 @@
 {
     "about": {
-        "name": "John doe",
+        "name": "Eduardo García",
         "title": "Software Developer",
-        "subTitle": "I develop 3D visuals, user interfaces and web applications",
-        "description": "As a React developer with 5 years of experience, I have honed my skills in JavaScript and am currently learning TypeScript to expand my expertise. I pride myself on being a quick learner and attentive listener, which allows me to collaborate effectively with clients to create efficient and scalable solutions. My focus is on developing user-friendly applications that solve real-world problems.",
-        "quote": "Live the Life as you want",
-        "exp_year": "5",
-        "address": "Los Angeles , America",
+        "subTitle": "I build modern, scalable, and interactive web applications",
+        "description": "I am a frontend engineer with four years of experience, specializing in JavaScript, React, TypeScript, and scalable web applications. I have worked on multiple projects, leading frontend development and collaborating closely with teams to deliver high-quality software solutions. I am passionate about building efficient, user-friendly, and interactive interfaces.",
+        "quote": "Never stop learning",
+        "exp_year": "4",
+        "address": "Madrid, Spain",
         "some_total": "90",
-        "phoneNumber": "+91-9528391901",
-        "contactEmail": "work.tehseen@gmail.com",
-        "avatar": {
-            "public_id": "portfolio3/1713995155677-122l5x.webp",
-            "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1713995155677-122l5x.webp"
-        },
-        "alternateAvatars": [
-            {
-                "_id": "676e772d8a9e1d0a8b0647ca",
-                "public_id": "portfolio3/1713996156944-1hro1b.webp",
-                "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1713996156944-1hro1b.webp"
-            }
-        ]
-    },
-    "usageMetrics": {
-        "visits": 0,
-        "downloads": 0
+        "phoneNumber": "+34-645055755",
+        "contactEmail": "edugarciasb16@gmail.com"
     },
     "_id": "65b3a22c01d900e96c4219ae",
     "username": "portfolio3",
