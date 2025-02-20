@@ -51,6 +51,7 @@ export interface Project {
     sequence: number;
     image: Image;
     description: string;
+    short_description: string;
     techStack: string[];
     _id: string;
     enabled: boolean;
