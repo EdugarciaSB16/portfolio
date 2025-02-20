@@ -1,6 +1,7 @@
 import React from 'react';
 import { Portfolio } from '@/utils/interface';
 import Header from '@/components/header';
+import Hero from '@/components/hero';
 
 const page = async () => {
     const portfolio = (await import('@/dummy.json')).default;
@@ -19,6 +20,7 @@ const page = async () => {
     return (
         <main className="relative">
             <Header social={social_handles} />
+            <Hero about={about} />
         </main>
     );
 };
