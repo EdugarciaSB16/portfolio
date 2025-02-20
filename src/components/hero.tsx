@@ -24,7 +24,7 @@ const Hero = ({ about }: HeroProps) => {
                     <div className="flex items-center justify-center flex-col h-full pb-10">
                         <Transition>
                             <Image
-                                src="/profile.jpg"
+                                src="/avatar.png"
                                 alt={about.name}
                                 className="rounded-full object-cover object-top"
                                 width={112}
@@ -32,7 +32,7 @@ const Hero = ({ about }: HeroProps) => {
                             />
                         </Transition>
                         <div className="py-6 flex items-center flex-col">
-                            <h2 className="md:text-7xl text-4xl font-bold overflow-hidden">
+                            <h2 className="md:text-7xl text-3xl font-bold overflow-hidden">
                                 <SlideIn>Hello! I&apos;m {about.name}</SlideIn>
                             </h2>
                             <h1 className="md:text-7xl text-3xl overflow-hidden">
