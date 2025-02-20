@@ -52,13 +52,24 @@ const Hero = ({ about }: HeroProps) => {
                             </p>
                         </Transition>
                         <Transition viewport={{ once: true }}>
-                            <Link
-                                href={'#contact'}
-                                className="px-5 py-3 mt-4 rounded-full border border-white/50 flex items-center gap-2 group"
-                            >
-                                <TextReveal>Let&apos;s talk</TextReveal>
-                                <ArrowUpRight />
-                            </Link>
+                            <div className="flex flex-col md:flex-row gap-4 mt-4">
+                                <Link
+                                    href={'#contact'}
+                                    className="px-5 py-3 rounded-full border border-white/50 flex items-center gap-2 group"
+                                >
+                                    <TextReveal>Let&apos;s talk</TextReveal>
+                                    <ArrowUpRight />
+                                </Link>
+                                <Link
+                                    href="/Eduardo_Garcia_Resume.pdf"
+                                    download
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="px-5 py-3 rounded-full bg-white text-black flex items-center gap-2 group"
+                                >
+                                    <TextReveal>Download CV</TextReveal>
+                                </Link>
+                            </div>
                         </Transition>
                     </div>
                 </div>
