@@ -4,6 +4,7 @@ import Header from '@/components/header';
 import Hero from '@/components/hero';
 import About from '@/components/about';
 import Skills from '@/components/Skills';
+import Projects from '@/components/Projects';
 
 const page = async () => {
     const portfolio = (await import('@/dummy.json')).default;
@@ -25,6 +26,7 @@ const page = async () => {
             <Hero about={about} />
             <About about={about} timeline={timeline} />
             <Skills skills={skills} />
+            <Projects projects={projects} />
         </main>
     );
 };
