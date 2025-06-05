@@ -282,29 +282,22 @@
   ],
   "projects": [
     {
-      "liveurl": "https://university-library-two.vercel.app/sign-in",
-      "githuburl": "https://github.com/EdugarciaSB16/university_library",
-      "title": "University Library",
+      "liveurl": "https://apple-website-seven-mauve.vercel.app/",
+      "githuburl": "https://github.com/EdugarciaSB16/apple_website",
+      "title": "Iphone 15",
       "image": {
-        "url": "/projects/library.png"
+        "url": "/projects/iphone.png"
       },
-      "short_description": "Developed with Next.js, TypeScript, and Postgres",
-      "description": "Built with Next.js, TypeScript, and Postgres, the University Library Management System is a production-grade platform featuring a public-facing app and an admin interface. It offers advanced functionalities like seamless book borrowing with reminders and receipts, robust user management, automated workflows, and a modern, optimized tech stack for real-world scalability.",
-      "techStack": ["Next.js ", " TypeScript ", " Tailwind ", " Postgres"],
-      "_id": "65b3d9c8d017f6b49c778ca7",
-      "enabled": true
-    },
-    {
-      "liveurl": "https://overture.life/davitri",
-      "githuburl": null,
-      "title": "DaVitri UI",
-      "image": {
-        "url": "/projects/davitri.png"
-      },
-      "short_description": "Developed with React, TypeScript, Tailwind, and WebSockets.",
-      "description": "DaVitri UI is an intuitive interface designed to operate a device that automates vitrification and thawing processes in embryology labs. Developed with React, TypeScript, Tailwind, and WebSockets, it ensures seamless real-time control, enhancing precision and efficiency in cryopreservation workflows. ",
-      "techStack": ["Reactjs ", " TypeScript ", " Tailwind ", " WebSockets"],
-      "_id": "65b3d9c8d017f6b49c778ca7",
+      "short_description": "Developed with React, GSAP, Three.js, and Tailwind.",
+      "description": "This is a clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS. It highlights the effective use of GSAP (Greensock Animations) and Three.js for displaying iPhone 15 Pro models in various colors and shapes.",
+      "techStack": [
+        "Reactjs ",
+        " GSAP ",
+        " Tailwind ",
+        "Three.js",
+        "React Three Fiber"
+      ],
+      "_id": "23423rf23r90asd89ade8s89",
       "enabled": true
     },
     {
@@ -334,22 +327,29 @@
       "enabled": true
     },
     {
-      "liveurl": "https://apple-website-seven-mauve.vercel.app/",
-      "githuburl": "https://github.com/EdugarciaSB16/apple_website",
-      "title": "Iphone 15",
+      "liveurl": "https://university-library-two.vercel.app/sign-in",
+      "githuburl": "https://github.com/EdugarciaSB16/university_library",
+      "title": "University Library",
       "image": {
-        "url": "/projects/iphone.png"
+        "url": "/projects/library.png"
       },
-      "short_description": "Developed with React, GSAP, Three.js, and Tailwind.",
-      "description": "This is a clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS. It highlights the effective use of GSAP (Greensock Animations) and Three.js for displaying iPhone 15 Pro models in various colors and shapes.",
-      "techStack": [
-        "Reactjs ",
-        " GSAP ",
-        " Tailwind ",
-        "Three.js",
-        "React Three Fiber"
-      ],
-      "_id": "23423rf23r90asd89ade8s89",
+      "short_description": "Developed with Next.js, TypeScript, and Postgres",
+      "description": "Built with Next.js, TypeScript, and Postgres, the University Library Management System is a production-grade platform featuring a public-facing app and an admin interface. It offers advanced functionalities like seamless book borrowing with reminders and receipts, robust user management, automated workflows, and a modern, optimized tech stack for real-world scalability.",
+      "techStack": ["Next.js ", " TypeScript ", " Tailwind ", " Postgres"],
+      "_id": "65b3d9c8d017f6b4asasd21easda",
+      "enabled": true
+    },
+    {
+      "liveurl": "https://overture.life/davitri",
+      "githuburl": null,
+      "title": "DaVitri UI",
+      "image": {
+        "url": "/projects/davitri.png"
+      },
+      "short_description": "Developed with React, TypeScript, Tailwind, and WebSockets.",
+      "description": "DaVitri UI is an intuitive interface designed to operate a device that automates vitrification and thawing processes in embryology labs. Developed with React, TypeScript, Tailwind, and WebSockets, it ensures seamless real-time control, enhancing precision and efficiency in cryopreservation workflows. ",
+      "techStack": ["Reactjs ", " TypeScript ", " Tailwind ", " WebSockets"],
+      "_id": "65b3d9c8d017f6b49c778ca7",
       "enabled": true
     },
     {
